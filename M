@@ -2,11 +2,11 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local whitelist = {
-    ["yasmim_dripada"] = true,
+    ["yasmim111_dripada"] = true,
     ["LuaWorldV99"] = true,
-    ["yasmim_dripada4"] = true,
-    ["yasmim_dripada3"] = true,
-    ["yasmim_dripada2"] = true
+    ["yasmim111_dripada4"] = true,
+    ["yasmim111_dripada3"] = true,
+    ["yasmim111_dripada2"] = true
 }
 
 if not whitelist[LocalPlayer.Name] then
@@ -1596,5 +1596,6 @@ tabteleport:AddButton("Ilha do Ringue [Brawl]", function()
         Duration = 0
     })
 end)
+
 
 
